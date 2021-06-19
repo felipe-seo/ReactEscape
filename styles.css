@@ -1,0 +1,56 @@
+.container {
+    position: relative;
+    height: 90vh;
+    width: 90%;
+    left: 5%;
+    background-image: url("assets/background.jpg");
+    background-size: center;
+    background-repeat: stretch;
+    background-color: beige;
+    box-shadow: 0px 1px 8px 0px black;
+    text-align: center;
+}
+
+.basket {
+    position: absolute;
+/*    height: 50px;
+    width: 100px;
+    bottom: 10%;
+    left: 30%;
+    border:1px solid red;
+*/    
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.topbar {
+    text-align: center;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.baddy {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 0;
+    left: 0;    
+    background-image: url("assets/react.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:150px;
+    color: white;
+    font-size: 1.2em;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+}
